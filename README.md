@@ -31,6 +31,9 @@ Note: if you try to reload the index.html page in the browser. You'll notice you
 
 	node bridge.js
 
+## mesh map
+
+This is just sending 16 x-y coordinates around the eyes, noise and mouth. See the [mesh map](https://github.com/tensorflow/tfjs-models/blob/master/face-landmarks-detection/mesh_map.jpg) for full integration of the facial keypoints.
 
 ## examples
 
