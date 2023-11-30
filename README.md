@@ -10,9 +10,9 @@ adapted from [p5js-osc](https://github.com/genekogan/p5js-osc) by Gene Kogan.
 2) install dependencies
 
 ```
-	git https://github.com/aurelienkrieger/p5.FaceOSC
-	cd p5.FaceOSC
-    npm install
+git https://github.com/aurelienkrieger/p5.FaceOSC
+cd p5.FaceOSC
+npm install
 ```
 
 3) run the websocket
