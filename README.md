@@ -9,9 +9,9 @@ adapted from [p5js-osc](https://github.com/genekogan/p5js-osc) by Gene Kogan.
 
 2) install dependencies
 
-	git https://github.com/aurelienkrieger/p5.FaceOSC
-	cd p5.FaceOSC
-	npm install
+    ` git https://github.com/aurelienkrieger/p5.FaceOSC`
+    `cd p5.FaceOSC`
+    `npm install`
 
 3) run the websocket
 
@@ -29,7 +29,7 @@ When you open index.html from a sketch in a browser, it connects to bridge.js.
 
 Note: if you try to reload the index.html page in the browser. You'll notice you get an error and node will stop running. When you start node, the server communicates with your application over a particular port. It only allows one application to connect over a single port and it won't let anything else connect to it. So when you reload, you are not actually closing the connection, and node thinks you are another application trying to connect and will crash. So for now, you have to restart node everytime you refresh your browser (do this in the terminal where you are running bridge CRL-c to quit and then relaunch using as before:
 
-	node bridge.js
+	`node bridge.js`
 
 ## mesh map
 
