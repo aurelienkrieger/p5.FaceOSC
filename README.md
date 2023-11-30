@@ -17,7 +17,7 @@ npm install
 
 3) run the websocket
 
-  node bridge.js
+`node bridge.js`
 
 This command runs the file in this repo called "bridge.js", it runs on the server. Is is a javascript file that creates a connection using <a href="http://socket.io/">socket.io.</a> This file creates a listener on the server, which is where the computer is listening for packets sent using UDP. Any computer can support sending and receiving network packets, eg. it can request info, by sending an http request (UDP).
 
